@@ -20,17 +20,12 @@ int main()
 		if (inp == 114) {
 			coins--;
 			for (int i = 0; i < 20; i++) {
-				system("cls");
 				slots[0] = rand() % 10;
 				slots[1] = rand() % 10;
 				slots[2] = rand() % 10;
 				if (coins > 999) {
 					coins = 999;
 				}
-				cout << "Coins: " << coins << "\n";
-				cout << " _____ " << "\n";
-				cout << "|" << slots[0] << "|" << slots[1] << "|" << slots[2] << "|\n";
-				cout << "|_____|\n";
 				if (slots[0] == slots[1] && slots[1] == slots[2]) {
 					if (slots[0] == 7) {
 						coins += 20;
@@ -42,6 +37,11 @@ int main()
 					else coins += 5;
 					break;
 				}
+				system("cls");
+				cout << "Coins: " << coins << "\n";
+				cout << " _____ " << "\n";
+				cout << "|" << slots[0] << "|" << slots[1] << "|" << slots[2] << "|\n";
+				cout << "|_____|\n";
 			}
 		}
 		if (inp == 101) return 0;
