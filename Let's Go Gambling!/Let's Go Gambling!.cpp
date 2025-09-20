@@ -10,7 +10,7 @@ int main()
 	vector<int> slots = { 0,0,0 };
 	char inp;
 	int code, coins = 10;
-	cout << "PRESS R TO ROLL\n";
+	cout << "PRESS R TO PLAY\n";
 	cout << " _____ " << "\n";
 	cout << "|" << slots[0] << "|" << slots[1] << "|" << slots[2] << "|\n";
 	cout << "|_____|\n";
