@@ -1,7 +1,9 @@
 # Let-s-Go-Gambling-
+
 Controls:
 R - play
 E - exit
+
 Gameplay:
 Test your luck!
 Simple combo (ex. 222) give you 5 coins
